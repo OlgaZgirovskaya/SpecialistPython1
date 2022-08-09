@@ -18,7 +18,13 @@
 ### Решение задачи
 
 ```python
-# TODO: you code here...
+
+number = int(input("Введите четырёхзначное число: "))
+
+if number // 1000 == number % 10 and (number // 100) % 10 == (number % 100) // 10:
+    print("Да")
+else:
+    print("Нет")
 ```
 
 ---
